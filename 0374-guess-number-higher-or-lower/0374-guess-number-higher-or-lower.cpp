@@ -23,12 +23,15 @@ public:
         else if(guess(mid)== 1){
             low = mid+1;
         }
-        else{
+        else if(guess(mid)== -1){
             high = mid -1;
+        }
+        else{
+            
 
         }
         }
-        return -1;
+        return 0;
         
     }
 };
