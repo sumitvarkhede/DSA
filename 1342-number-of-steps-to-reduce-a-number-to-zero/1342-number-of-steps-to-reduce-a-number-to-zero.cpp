@@ -9,9 +9,7 @@ count++;
             }
             else{
                 num = num-1;
-               
-
-count++;
+          count++;
             }
             
         }
